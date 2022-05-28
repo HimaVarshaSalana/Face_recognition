@@ -1,0 +1,84 @@
+{% extends "facepay/base.html" %}
+{% block content %}
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/Logo Title */
+    .header {
+      padding: 150px;
+      text-align: center;
+      background-image: url('https://media.istockphoto.com/vectors/abstract-blue-background-geometric-texture-vector-id1279615641?k=20&m=1279615641&s=612x612&w=0&h=Tp2rx9735xlF9w4ceigPwTyxumSttQf1JWR2gsje2c8=');
+      color: white;
+      font-size: 30px;
+    }
+    
+    /* Page Content */
+    .content {padding:20px;}
+    </style>
+    </head>
+    <body>
+    
+    <div class="header">
+      <h1>Face Pay</h1>
+      <h5>Faster and Secure Payments</h5>
+    </div>
+    
+    <div class="content">
+      <h1>About Us</h1>
+      <p>Face Pay is a product that integrates your payments into your facial recognition</p>
+      <p>Where customers can pay through simply a selfie.
+        Face pay ensures secure payment and eliminates the threat of leaking passwords or unauthorized transactions.</p>
+      <p>Face Pay ensures faster and more secure payment at any place.
+        Just take a selfie and make all your payments done.</p>
+    </div>
+
+
+    <div class="contact_info">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                  <div class="contact_info_container d-flex flex-lg-row flex-row justify-content-between align-items-between">
+                      
+                      <br>
+
+                      <!-- Contact Item -->
+                      <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                          <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
+                          <p>   .   </p>
+                          <div class="contact_info_content">
+                              <div class="contact_info_title">Phone </div>
+                              <div class="contact_info_text"> +91 9876 543 2198</div>
+                          </div>
+                      </div>
+
+                      <br>
+
+                      <!-- Contact Item -->
+                      <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                          <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
+                          <p>   .   </p>
+                          <div class="contact_info_content">
+                              <div class="contact_info_title"> Email</div>
+                              <div class="contact_info_text">  facepay@gmail.com</div>
+                          </div>
+                      </div>
+
+                      <br>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    
+    </body>
+ 
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends "facepay/base.html" %}
+{% block content %}
+
+<html>
+    <title><signin></title>
+    <center>
+    <h1> Bank Money Transfer</h1>
+    <form method="Get" action="Check">
+    <FONT SIZE="5" FACE="courier" COLOR=blue>
+    <body bgcolor="#E7E7EF"><br>
+    <table>
+    <tr><td><h3>Account No</h3></td><td ><input type=text name="user"></td></tr>
+    <tr><td><h3>IFSC Code</h3></td><td ><input type=text name="user"></td></tr>
+    <tr><td><h3>Account Holder name</h3></td><td ><input type=text name="user"></td></tr>
+    <tr><td><h3>Amount</h3></td><td><input type=password name="pass"></td></tr>
+    <tr><td><h3>Re-enter Account NO</h3></td><td ><input type=text name="user"></td></tr>
+    <tr><td align="between">
+        <a href="{% url 'facedetect' %}" class="btn btn-primary">Proceed</a></td></tr>
+    </table>
+    </center>
+    </body>
+</html>
+    
+
+{% endblock content %}

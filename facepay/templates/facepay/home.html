@@ -1,0 +1,96 @@
+{% extends "facepay/base.html" %}
+{% block content %}
+
+   
+  
+   <header>
+    <!-- Background image -->
+    <div
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url('https://media.istockphoto.com/vectors/abstract-blue-background-geometric-texture-vector-id1279615641?k=20&m=1279615641&s=612x612&w=0&h=Tp2rx9735xlF9w4ceigPwTyxumSttQf1JWR2gsje2c8=');
+        height: 400px;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Face Pay</h1>
+            <h4 class="mb-3">Pay with your selfie !</h4>
+            <br><br>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      {% if user.is_authenticated %}
+      <a class="btn btn-outline-light btn-lg" href="#!" role="button">Pay Now</a>
+    </div>
+    <!-- Background image -->
+  </header>
+
+  <br><br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" width="160" height="240" src="https://play-lh.googleusercontent.com/nJcgTrETflv8liaA-3zrv7po7NyfKDMpMswbazxx6oWGnNAzT4D1mPniyX0nOrE-YnaV" alt="Card image cap">
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">scan Qr code</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" width="160" height="240" src="https://i.pinimg.com/originals/a4/90/d9/a490d9efcb632f3fd136dbef1a994f31.png" alt="Card image cap">
+        <div class="card-body">
+          <a href="{% url 'mobilepay' %}" class="btn btn-primary">pay now</a>
+        </div>
+      </div>
+    </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img class="card-img-top" width="160" height="240" src="https://thumbs.dreamstime.com/b/transaction-history-rgb-color-icon-e-wallet-application-mobile-banking-app-using-payment-bill-checking-payments-report-isolated-194875666.jpg" alt="Card image cap">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary" >show history</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" width="160" height="240" src="data:image/png;base64,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" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Direct and easy one to one bank transfer</h5>
+          <a href="{% url 'banktransfer' %}" class="btn btn-primary">Transfer Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" width="160" height="240" src="https://www.paymentsjournal.com/wp-content/uploads/2020/06/payment-background-design_1212-511.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pay all your bills now with one selfie</h5>
+          <a href="#" class="btn btn-primary">Pay Now</a>
+        </div>
+      </div>
+    </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img class="card-img-top" width="160" height="240" src="https://cdn.dribbble.com/users/320367/screenshots/3027242/gif-mob.gif" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Do your mobile recharge in just one step</h5>
+        <a href="{% url 'recharge' %}" class="btn btn-primary">Recharge now</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<a class="btn btn-outline-light btn-lg" href="{% url 'register' %}" role="button">Register</a>
+
+<a class="btn btn-outline-light btn-lg" href="{% url 'login' %}" role="button">Login</a>
+
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,68 @@
+{% extends "facepay/base.html" %}
+{% block content %}
+<br><br><br>
+<form>
+<section style="background-color: #eee;">
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 col-lg-6 col-xl-4">
+          <div class="card rounded-3">
+            <div class="card-body mx-1 my-2">
+              <div class="d-flex align-items-center">
+                <div>
+                  <i class="fab fa-cc-visa fa-4x text-black pe-3"></i>
+                </div>
+                <div>
+                  <p class="d-flex flex-column mb-0">
+                    <b>{{ user.username }}</b><span class="small text-muted"></span>
+                    <br>
+                  </p>
+                </div>
+              </div>
+
+                
+              <div class="d-flex flex-row pb-3">
+                <div class="rounded border d-flex w-100 px-3 py-2 align-items-center">
+                  <div class="d-flex align-items-center pe-3">
+                  </div>
+                  <div class="d-flex flex-column py-1">
+                    <p class="mb-1 small text-primary">Enter Mobile Number</p>
+                    <div class="d-flex flex-row align-items-center">
+                      <h6 class="mb-0 text-primary pe-1">+91</h6>
+                       <input type="tel" class="form-control form-control-sm" id="numberExample"
+                                style="width: 220px;"pattern="[7-9]{1}[0-9]{9}"> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+                <div class="d-flex flex-row pb-3">
+                  <div class="rounded border d-flex w-100 px-3 py-2 align-items-center">
+                    <div class="d-flex align-items-center pe-3">
+                    </div>
+                    <div class="d-flex flex-column py-1">
+                      <p class="mb-1 small text-primary">Enter Recharge Amount</p>
+                      <div class="d-flex flex-row align-items-center">
+                        <h6 class="mb-0 text-primary pe-1">Rs</h6>
+                        <input type="text" class="form-control form-control-sm" id="numberExample"
+                          style="width: 150px;" ></div>
+                      </div>
+                    </div>
+                </form>
+                  </div>
+                <div class="d-flex justify-content-between align-items-center pb-2">
+                    <a href="/" class="text-muted">Go back</a>
+                    <a href="{% url 'facedetect' %}" class="btn btn-primary">Verify Face Now</a>
+                  </div>
+              </div>
+  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock content%}
