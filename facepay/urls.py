@@ -11,5 +11,5 @@ urlpatterns = [
     path('facedetect/',views.facedetect,name='facedetect'),
     path('payment/',views.payment,name='payment'),
     path('success/',views.success,name='success'),
-
+    path('qqrcode/',views.qrcode,name='qrcode'),
 ]
