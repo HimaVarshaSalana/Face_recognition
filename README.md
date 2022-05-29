@@ -12,6 +12,20 @@ To run the server:
 7. You can exit the server in your command prompt by entering (break): CTRL+C
 8. Please note that the localhost cannot be activated unless you properly host it in the command prompt.
 
+Requirements:
+
+
+please not that the project doesnot work in any external system without certain libraraies installed . To run the project make sure the following are installed
+
+1. python
+2. django
+3. cmake
+4. dlib
+5. wheel
+6. face_recognition
+7. opencv-python
+8. django-credit-cards (for database models )
+
 How the application works:
 
 1. As with any other online website you can register and login into the server.
@@ -22,14 +36,3 @@ How the application works:
 7. Upon Successful Verification of your face the payment confirmation window opens and the payments are done!
 8. You may choose different payment optons like qrcode , mobile transfer , banktransfer
 9. You also have features like mobilerecharege ,bill payments
-
-Requirements:
-
-(To use the facepay.py outside) Please note that facepay.py is not used anywhere in the project. It is a file I created to use face recognition in python. The following Python modules/packages have to be installed in your System:
-
-1. cmake
-2. dlib
-3. wheel
-4. face_recognition
-5. opencv-python
-6. django-credit-cards (for database models )
