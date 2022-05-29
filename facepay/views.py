@@ -53,3 +53,5 @@ def success(request):
     return render(request,'facepay/success.html')
 def webcam(request):
     return render(request,'facepay/webcam.html')
+def qrcode(request):
+    return render(request,'facepay/qrcode.html')
