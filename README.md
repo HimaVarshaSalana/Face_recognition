@@ -32,3 +32,4 @@ Requirements:
 3. wheel
 4. face_recognition
 5. opencv-python
+6. django-credit-cards (for database models )
