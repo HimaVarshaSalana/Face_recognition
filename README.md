@@ -31,12 +31,24 @@ please not that the project doesnot work in any external system without certain 
 
 1. python
 2. django
+   >pip install django
+
 3. cmake
+   >pip install cmake
 4. wheel
+   >pip install wheel
+   
 5. dlib
+   >pip install dlib
+   
 6. face-recognition
+    >pip install face-recognition
+    
 7. opencv-python
+    >pip install opencv-python
+    
 8. django-credit-cards (for database models )
+    >pip install dajngo-credit-cards
 
 How the application works:
 
