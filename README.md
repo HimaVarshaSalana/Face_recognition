@@ -51,32 +51,6 @@ To run the server:
 ![Screenshot (3)](https://user-images.githubusercontent.com/94437043/171025665-f2947fde-2524-45c6-b9f6-10d98d129b24.png)
 
 
-Requirements:
-
-
-please not that the project doesnot work in any external system without certain libraraies installed . To run the project make sure the following are installed
-
-1. python
-2. django
-   >pip install django
-
-3. cmake
-   >pip install cmake
-4. wheel
-   >pip install wheel
-   
-5. dlib
-   >pip install dlib
-   
-6. face-recognition
-    >pip install face-recognition
-    
-7. opencv-python
-    >pip install opencv-python
-    
-8. django-credit-cards (for database models )
-    >pip install dajngo-credit-cards
-
 How the application works:
 
 1. As with any other online website you can register and login into the server.
