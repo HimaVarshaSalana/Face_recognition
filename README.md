@@ -4,13 +4,16 @@ face recognition for secure paymnets using django
 To run the server:
 
 1. Go you your command prompt
-2. Change directory to django_project
+2. Change directory to paybyface
 3. manage.py is the main file
 4. In your command prompt enter: python manage.py runserver
 5. Please make sure to include "runserver" in the end otherwise the localhost link will not be generated.
-6. Copy and paste the above HTTP link into your browser to view the page.
-7. You can exit the server in your command prompt by entering (break): CTRL+C
-8. Please note that the localhost cannot be activated unless you properly host it in the command prompt.
+
+   ![Screenshot (2)](https://user-images.githubusercontent.com/94437043/171025034-20af9eb7-4a70-4b11-9976-2fe6edd42cf1.png)
+
+7. Copy and paste the above HTTP link into your browser to view the page.
+8. You can exit the server in your command prompt by entering (break): CTRL+C
+9. Please note that the localhost cannot be activated unless you properly host it in the command prompt.
 
 Requirements:
 
