@@ -73,7 +73,9 @@ How the application works:
 
 7. You may choose different payment optons like qrcode , mobile transfer , banktransfer
       
-     ![WhatsApp Image 2022-05-30 at 9 47 55 PM](https://user-images.githubusercontent.com/94437043/171030720-c31604d2-651a-4593-8591-29541383faec.jpeg)
+     
 
      
 8. You also have features like mobilerecharege ,bill payments
+
+   ![WhatsApp Image 2022-05-30 at 9 47 55 PM](https://user-images.githubusercontent.com/94437043/171030720-c31604d2-651a-4593-8591-29541383faec.jpeg)
