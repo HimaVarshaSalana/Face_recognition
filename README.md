@@ -9,11 +9,16 @@ To run the server:
 4. In your command prompt enter: python manage.py runserver
 5. Please make sure to include "runserver" in the end otherwise the localhost link will not be generated.
 
-   ![Screenshot (2)](https://user-images.githubusercontent.com/94437043/171025034-20af9eb7-4a70-4b11-9976-2fe6edd42cf1.png)
+  ![Screenshot (2)](https://user-images.githubusercontent.com/94437043/171025219-fdd57707-2145-43ee-92f6-d03b128bdba0.png)
+
 
 7. Copy and paste the above HTTP link into your browser to view the page.
 8. You can exit the server in your command prompt by entering (break): CTRL+C
 9. Please note that the localhost cannot be activated unless you properly host it in the command prompt.
+10. You can see the website on the browser
+
+![Screenshot (3)](https://user-images.githubusercontent.com/94437043/171025665-f2947fde-2524-45c6-b9f6-10d98d129b24.png)
+
 
 Requirements:
 
