@@ -26,13 +26,15 @@ Requirements:
 please not that the project doesnot work in any external system without certain libraraies installed . To run the project make sure the following are installed
 
 1. python
-2. django
-3. cmake
-4. dlib
-5. wheel
-6. face_recognition
-7. opencv-python
-8. django-credit-cards (for database models )
+2. django 
+4. cmake
+![Screenshot cmake](https://user-images.githubusercontent.com/94437043/171026698-ad7659de-0d09-45ab-9e65-1bcc5a09ae49.png)
+
+6. dlib
+7. wheel
+8. face_recognition
+9. opencv-python
+10. django-credit-cards (for database models )
 
 How the application works:
 
