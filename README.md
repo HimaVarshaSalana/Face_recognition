@@ -5,10 +5,10 @@ I have used django frame work for creating this web application
 I have used html,js,css for frontend and sql database for backend
 I have used python language to develop the face recognition application
 
-Requirements:
+**Requirements:**
 
 
-please not that the project doesnot work in any external system without certain libraraies installed . To run the project make sure the following are installed
+please not that the project doesnot work in any external system without certain libraraies installed . To run the project make sure the following are **installed**
 
 1. python
 2. django
@@ -32,12 +32,12 @@ please not that the project doesnot work in any external system without certain 
     >pip install dajngo-credit-cards
 
 
-To run the server:
+**To run the server:**
 
 1. Go you your command prompt
 2. Change directory to paybyface
 3. manage.py is the main file
-4. In your command prompt enter: python manage.py runserver
+4. In your command prompt enter: *python manage.py runserver*
 5. Please make sure to include "runserver" in the end otherwise the localhost link will not be generated.
 
   ![Screenshot (2)](https://user-images.githubusercontent.com/94437043/171025219-fdd57707-2145-43ee-92f6-d03b128bdba0.png)
@@ -51,7 +51,7 @@ To run the server:
 ![Screenshot (3)](https://user-images.githubusercontent.com/94437043/171025665-f2947fde-2524-45c6-b9f6-10d98d129b24.png)
 
 
-How the application works:
+**How the application works:**
 
 1. As with any other online website you can register and login into the server.
 2. First time users will be asked their Card Details to perform transactions   
