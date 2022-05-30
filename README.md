@@ -5,6 +5,33 @@ I have used django frame work for creating this web application
 I have used html,js,css for frontend and sql database for backend
 I have used python language to develop the face recognition application
 
+Requirements:
+
+
+please not that the project doesnot work in any external system without certain libraraies installed . To run the project make sure the following are installed
+
+1. python
+2. django
+   >pip install django
+
+3. cmake
+   >pip install cmake
+4. wheel
+   >pip install wheel
+   
+5. dlib
+   >pip install dlib
+   
+6. face-recognition
+    >pip install face-recognition
+    
+7. opencv-python
+    >pip install opencv-python
+    
+8. django-credit-cards (for database models )
+    >pip install dajngo-credit-cards
+
+
 To run the server:
 
 1. Go you your command prompt
